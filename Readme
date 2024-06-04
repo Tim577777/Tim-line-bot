@@ -1,0 +1,12 @@
+To activate : source venv/bin/activate
+To deactivate : deactivate
+To reproduce env : pip install -r requirements.txt
+
+my zeabur : https://dash.zeabur.com/projects/665e9d867113651529d30b58/services/665e9da17113651529d30b5a?envID=665e9d86c2f16bc86957eca7
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+nodejs_install.sh: line 5: nvm: command not found
+nodejs_install.sh: line 8: node: command not found
+nodejs_install.sh: line 11: npm: command not found
